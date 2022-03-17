@@ -34,3 +34,7 @@ pipelines:
           - npm install --no-spin
           - gulp
 ```
+
+building
+Get-Content .\Dockerfile-php74 | docker build -t repo - 
+docker push 
